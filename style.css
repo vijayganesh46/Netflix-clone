@@ -1,0 +1,385 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    /* padding: 0; */
+}
+
+.mains {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("landimg.jpg");
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+nav button {
+    color: white;
+    background-color: #db0001;
+    font-size: 80%;
+    margin-left: 1px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.langbtn {
+    background: transparent;
+    align-items: center;
+    border: solid 1px #fff;
+    padding: 1px 10px;
+}
+
+.signinbtn {
+    padding: 3px 20px;
+}
+
+.hcontent {
+    color: white;
+}
+
+.hcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 150%;
+
+}
+
+.hcontent h1 {
+    font-weight: 1100;
+
+
+}
+
+.hcontent h5 {
+    font-weight: 150;
+    padding: 15px;
+
+}
+
+.hcontent h3 {
+    font-weight: 300;
+}
+.signup{
+    
+    margin: 30px;
+}
+.signup input {
+    padding: 20px;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    padding: 20px 0;
+    width: 60%;
+    border: solid 1px #777;
+
+}
+
+.signup button {
+    background-color: #db0001;
+    border: none;
+    padding: 17px;
+    border-radius: 4px;
+    font-size: 90%;
+    color:#fff;
+}
+
+.block1 {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    margin-top: -1px;
+    border-top: solid 8px#303030;
+    display: flex;
+
+}
+
+.block1-text {
+    padding: 10px;
+
+}
+
+.block1 h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-left: 55px;
+    margin-top: 200px;
+
+}
+
+.block1 h3 {
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.block1 img {
+    /* flex-basis:50%; */
+    height: 70%;
+    width: 65%;
+    align-items: center;
+    padding: 15%;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.block2 {
+    background-color: #000;
+    heigth: 80vh;
+    width: 100%;
+    border-top: solid 8px #303030;
+    display: flex;
+}
+
+.block2-text {
+    text-align: left;
+    margin-top: 10%;
+    padding-left:30px;
+}
+
+.block2 h1 {
+    color: #fff;
+    padding: 2 0px;
+    font-size: 52px;
+    font-weight: 900;
+    font-stretch: expanded;
+
+
+}
+
+.block2 h3 {
+    color: #fff;
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.block2 img {
+    margin-bottom: 100px;
+    padding-left: 35px;
+    height: 80%;
+    padding: 40px;
+}
+
+.block3 {
+    width: 100%;
+    height: 80vh;
+    border-top: solid 8px #303030;
+    background-color: #000;
+    display: flex;
+    
+}
+
+.block3 img {
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+.block3-text {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.block3-text h1 {
+    color: #fff;
+    font-size: 65px;
+    padding-top: 120px;
+}
+
+.block3-text h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 350;
+    /* margin-top: -30px; */
+
+}
+
+.block4 {
+    height: 80vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    border-top: solid 8px #303030;
+    /* border-bottom:solid 8px #303030; */
+}
+
+.block4 img {
+    height: 60%;
+    width: 40%;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+.block4-text {
+    text-align: left;
+    padding-top: 140px;
+}
+
+.block4-text h1 {
+    font-size: 55px;
+}
+
+.block4-text h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.block4-text {
+    color: #fff;
+}
+
+.faqs {
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    height: 110vh;
+    width: 100%;
+    border-top: solid 8px #303030;
+    color: #fff;
+}
+
+.faqs h2 {
+    color: #fff;
+    padding-top: 5px;
+    font-size: 47px;
+    font-weight: 900;
+
+}
+
+.accordian {
+    margin: 60px auto padding-left:2px;
+    list-style-type:none;
+    text-align:left;
+     margin-left:60px;
+}
+
+
+
+.accordian label {
+    cursor: pointer;
+    background-color: #303030;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+label::after {
+    content: '+';
+    font-size: 30px;
+
+    position: absolute;
+    right: 50px;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.cont {
+    text-align: left;
+    overflow: hidden;
+    background-color: #303030;
+    display: none;
+}
+
+.faqs h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.faqs form {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.footer {
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    border-top: solid 8px #303030;
+    color: #a29d9d;
+}
+
+.ccare h5 {
+
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 140px;
+    margin-top: 60px;
+    
+
+}
+
+.links {
+    
+    margin-left: 40px;
+    
+
+}
+
+.links .col {
+    display: inline-block;
+    justify-content: space-between;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin: 25px;
+    padding: 10px 80px 5px 80px;
+    
+}
+.row a{
+    text-decoration:none;
+    color:#777;
+    font-size:17px;
+    font-weight:400;
+}
+.footer button{
+    background: transparent;
+    color:#777;
+    border:solid 1px #777;
+    border-radius: 4px;
+    width:8%;
+    margin-left: 100px;
+    margin-bottom:50px;
+    margin-top:-20px;
+    padding:8px;
+}
+.langbtn1 .dd{
+    height:20%;
+    width: 15%;
+}
+.langbtn .dd{
+    height:20%;
+    width: 20%;
+    margin:2.5px;
+}
+.footer h4{
+    color:#777;
+    font-weight:100;
+    margin-left:100px;
+    margin-top:-10px;
+}
